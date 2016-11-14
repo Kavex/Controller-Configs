@@ -2,14 +2,14 @@
 {
 	"version"		"3"
 	"title"		"Dolphin GameCube"
-	"description"		"#SettingsController_AutosaveDescription"
+	"description"		"Steam controller profile for Dolphin"
 	"creator"		"76561197989295398"
 	"localization"
 	{
 		"english"
 		{
 			"title"		"Dolphin XInput Profile"
-			"description"		"Note: use with GCPad profile github.com/Kavex/EmulatorProfiles"
+			"description"		"Note: Download Dolphin GCPad profile from github.com/Kavex/EmulatorProfiles"
 		} 
 	"group"
 	{
