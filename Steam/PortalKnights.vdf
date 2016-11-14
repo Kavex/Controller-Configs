@@ -1,0 +1,226 @@
+"controller_mappings"
+{
+	"version"		"2"
+	"title"		"Portal Knight's Stream Controller"
+	"description"		"Portal Knight Config"
+	"creator"		"76561197989295398"
+	"localization"
+	{
+		"english"
+		{
+			"title"		"Portal Knight's Stream Controller"
+			"description"		"Portal Knight Config"
+		}
+	
+	}
+	"group"
+	{
+		"id"		"0"
+		"mode"		"four_buttons"
+		"bindings"
+		{
+			"button_a"		"key_press SPACE, Jump"
+			"button_B"		"key_press Q, Rotate"
+			"button_X"		"key_press F, Use/Interact"
+			"button_y"		"key_press E, Inventory"
+		}
+		"settings"
+		{
+			"hold_repeat_inverval"		"99"
+			"button_size"		"17994"
+			"button_dist"		"19994"
+		}
+	}
+	"group"
+	{
+		"id"		"1"
+		"mode"		"dpad"
+		"bindings"
+		{
+			"dpad_north"		"key_press 1, Weapon 1"
+			"dpad_south"		"key_press 3, Weapon 3"
+			"dpad_east"		"key_press 2, Weapon 2"
+			"dpad_west"		"key_press 4, Weapon 4"
+		}
+		"settings"
+		{
+			"layout"		"2"
+			"hold_repeat_inverval"		"99"
+			"edge_binding_radius"		"24996"
+		}
+	}
+	"group"
+	{
+		"id"		"2"
+		"mode"		"absolute_mouse"
+		"bindings"
+		{
+			"click"		"mouse_button MIDDLE, Use"
+		}
+		"settings"
+		{
+			"sensitivity"		"94"
+			"doubetap_max_duration"		"320"
+		}
+	}
+	"group"
+	{
+		"id"		"3"
+		"mode"		"dpad"
+		"bindings"
+		{
+			"dpad_north"		"key_press W, Move Forward"
+			"dpad_south"		"key_press S, Move Back"
+			"dpad_east"		"key_press D, Move Right"
+			"dpad_west"		"key_press A, Move Left"
+			"click"		"key_press LEFT_SHIFT, Sprint"
+		}
+		"settings"
+		{
+			"requires_click"		"0"
+			"hold_repeat_inverval"		"99"
+			"edge_binding_radius"		"24995"
+		}
+	}
+	"group"
+	{
+		"id"		"4"
+		"mode"		"trigger"
+		"bindings"
+		{
+			"edge"		"key_press LEFT_CONTROL, Control"
+		}
+		"settings"
+		{
+			"hold_repeat_inverval"		"99"
+		}
+	}
+	"group"
+	{
+		"id"		"5"
+		"mode"		"trigger"
+		"bindings"
+		{
+			"edge"		"mouse_button MIDDLE"
+		}
+		"settings"
+		{
+			"hold_repeat_inverval"		"99"
+		}
+	}
+	"group"
+	{
+		"id"		"6"
+		"mode"		"four_buttons"
+	}
+	"group"
+	{
+		"id"		"7"
+		"mode"		"touch_menu"
+		"bindings"
+		{
+			"touch_menu_button_0"		"key_press 1, 1"
+			"touch_menu_button_1"		"key_press 2, 2"
+			"touch_menu_button_2"		"key_press 3, 3"
+			"touch_menu_button_3"		"key_press 4, 4"
+			"touch_menu_button_4"		"key_press 5, 5"
+			"touch_menu_button_5"		"key_press 6, 6"
+			"touch_menu_button_6"		"key_press 7, 7"
+			"touch_menu_button_7"		"key_press 8, 8"
+			"touch_menu_button_8"		"key_press 9, 9"
+		}
+		"settings"
+		{
+			"touch_menu_button_count"		"9"
+			"touchmenu_button_fire_type"		"2"
+		}
+	}
+	"group"
+	{
+		"id"		"8"
+		"mode"		"scrollwheel"
+	}
+	"group"
+	{
+		"id"		"9"
+		"mode"		"absolute_mouse"
+		"bindings"
+		{
+			"dpad_west"		"mouse_button LEFT"
+			"dpad_east"		"mouse_button RIGHT"
+		}
+		"settings"
+		{
+			"gyro_button"		"0"
+		}
+	}
+	"group"
+	{
+		"id"		"10"
+		"mode"		"mouse_region"
+	}
+	"group"
+	{
+		"id"		"11"
+		"mode"		"absolute_mouse"
+		"settings"
+		{
+			"sensitivity"		"324"
+			"gyro_button"		"0"
+		}
+	}
+	"group"
+	{
+		"id"		"12"
+		"mode"		"mouse_joystick"
+	}
+	"group"
+	{
+		"id"		"13"
+		"mode"		"joystick_camera"
+		"settings"
+		{
+			"haptic_intensity"		"2"
+		}
+		"gameactions"
+		{
+		}
+	}
+	"preset"
+	{
+		"id"		"0"
+		"name"		"default"
+		"group_source_bindings"
+		{
+			"0"		"button_diamond active"
+			"1"		"left_trackpad inactive"
+			"6"		"left_trackpad inactive"
+			"7"		"left_trackpad active"
+			"2"		"right_trackpad active"
+			"8"		"right_trackpad active modeshift"
+			"3"		"joystick active"
+			"4"		"left_trigger active"
+			"5"		"right_trigger active"
+			"9"		"gyro inactive"
+			"10"		"gyro inactive"
+			"11"		"gyro active modeshift"
+			"12"		"gyro inactive"
+			"13"		"gyro inactive"
+		}
+		"switch_bindings"
+		{
+			"bindings"
+			{
+				"button_menu"		"key_press TAB, Map"
+				"button_escape"		"key_press ESCAPE, Menu"
+				"button_back_left"		"mouse_button LEFT, Left Click"
+				"button_back_right"		"mouse_button RIGHT, Right Click"
+				"left_bumper"		"mouse_wheel SCROLL_UP, Previous Actionbar"
+				"right_bumper"		"mouse_wheel SCROLL_DOWN, Next Actionbar"
+			}
+		}
+		"settings"
+		{
+		}
+	}
+}
