@@ -1,7 +1,7 @@
 "controller_mappings"
 {
 	"version"		"1"
-	"title"		"Snes9x"
+	"title"		"Snes9x Profile"
 	"description"		"Uses snes9x default input map. Save state control on right pad."
 	"creator"		"76561197989295398"
 	"controller_type"		"controller_steamcontroller_gordon"
@@ -9,8 +9,8 @@
 	{
 		"english"
 		{
-			"title"		"Keyboard (WASD) and Mouse"
-			"description"		"This template works great for the games on Steam that were designed with a keyboard and mouse in mind, without real gamepad support. The controller will drive the game's keyboard based events with buttons, but will make assumptions about which buttons move you around (WASD for movement, space for jump, etc.). The right pad will emulate the movement of a mouse."
+			"title"		"Snes9x Profile"
+			"description"		"Uses snes9x default input map. Save state control on right pad."
 		}
 	}
 	"group"
