@@ -1,0 +1,167 @@
+"controller_mappings"
+{
+	"version"		"2"
+	"title"		"Max's Big Bust Steam Controller Config"
+	"description"		"#SettingsController_AutosaveDescription"
+	"creator"		"76561197989295398"
+	"localization"
+	{
+		"english"
+		{
+			"title"		"Kerrigan's Max's Big Bust Steam Controller Config"
+			"description"		"RTP: Mouse/Activate, Stick: Arrow Keys, A: Activate, B: Advance Story, X: Skip (hold), Y: Game Menu, Back: Self-Voicing, Start: Full Screen, LB: Screenshot, LT: Game Menu, RB: Hide Overlay, RT: Toggle Skip, LG: RollBack, RG: RollForward, LPT: Mouse/Delete Save"
+		}
+		
+	}
+	"group"
+	{
+		"id"		"0"
+		"mode"		"four_buttons"
+		"bindings"
+		{
+			"button_a"		"key_press RETURN, Activate"
+			"button_b"		"key_press SPACE, Advance Story"
+			"button_x"		"key_press LEFT_CONTROL, Skip (Hold)"
+			"button_y"		"key_press ESCAPE, Game Menu"
+		}
+		"settings"
+		{
+			"hold_repeat_inverval"		"99"
+			"button_size"		"17994"
+			"button_dist"		"19994"
+		}
+	}
+	"group"
+	{
+		"id"		"1"
+		"mode"		"dpad"
+		"bindings"
+		{
+			"dpad_north"		"key_press 1, Weapon 1"
+			"dpad_south"		"key_press 3, Weapon 3"
+			"dpad_east"		"key_press 2, Weapon 2"
+			"dpad_west"		"key_press 4, Weapon 4"
+		}
+		"settings"
+		{
+			"hold_repeat_inverval"		"99"
+			"edge_binding_radius"		"24996"
+		}
+	}
+	"group"
+	{
+		"id"		"2"
+		"mode"		"absolute_mouse"
+		"bindings"
+		{
+			"click"		"key_press RETURN, Actiave"
+			"doubletap"		"key_press SPACE, Advance Story"
+		}
+		"settings"
+		{
+			"sensitivity"		"145"
+			"doubetap_max_duration"		"320"
+		}
+	}
+	"group"
+	{
+		"id"		"3"
+		"mode"		"dpad"
+		"bindings"
+		{
+			"dpad_north"		"key_press UP_ARROW, Move Forward"
+			"dpad_south"		"key_press DOWN_ARROW, Move Back"
+			"dpad_east"		"key_press RIGHT_ARROW, Move Right"
+			"dpad_west"		"key_press LEFT_ARROW, Move Left"
+			"click"		"key_press RETURN, Activate"
+		}
+		"settings"
+		{
+			"requires_click"		"0"
+			"hold_repeat_inverval"		"99"
+			"edge_binding_radius"		"24995"
+		}
+	}
+	"group"
+	{
+		"id"		"4"
+		"mode"		"trigger"
+		"bindings"
+		{
+			"click"		"key_press ESCAPE, Game Menu"
+		}
+		"settings"
+		{
+			"hold_repeat_inverval"		"99"
+			"edge_binding_radius"		"10517"
+			"adaptive_threshold"		"0"
+		}
+	}
+	"group"
+	{
+		"id"		"5"
+		"mode"		"trigger"
+		"bindings"
+		{
+			"click"		"key_press TAB, Toggle Skip"
+		}
+		"settings"
+		{
+			"hold_repeat_inverval"		"99"
+		}
+	}
+	"group"
+	{
+		"id"		"6"
+		"mode"		"absolute_mouse"
+		"bindings"
+		{
+			"click"		"key_press DELETE, Delete selected save"
+			"doubletap"		"key_press SPACE, Advance Story"
+		}
+		"settings"
+		{
+			"doubletap_beep"		"1"
+		}
+	}
+	"group"
+	{
+		"id"		"7"
+		"mode"		"absolute_mouse"
+		"bindings"
+		{
+			"click"		"mouse_button LEFT, Left Click"
+		}
+	}
+	"preset"
+	{
+		"id"		"0"
+		"name"		"default"
+		"group_source_bindings"
+		{
+			"0"		"button_diamond active"
+			"1"		"left_trackpad inactive"
+			"6"		"left_trackpad active"
+			"2"		"right_trackpad active"
+			"3"		"joystick active"
+			"7"		"joystick inactive"
+			"4"		"left_trigger active"
+			"5"		"right_trigger active"
+		}
+		"switch_bindings"
+		{
+			"bindings"
+			{
+				"button_menu"		"key_press V, Self-Voicing"
+				"button_back_left"		"key_press PAGE_UP, Rollback Time"
+				"button_back_right"		"key_press PAGE_DOWN, Rollforward Time"
+				"right_bumper"		"key_press H, Hide Overlay"
+				"left_bumper"		"key_press S, Screenshot"
+				"button_escape"		"key_press F, Full Screen"
+			}
+		}
+		"settings"
+		{
+		}
+	}
+}
